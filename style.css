@@ -1,0 +1,148 @@
+*{
+    margin:0px;
+    padding:0px;
+  }
+  .nav-link{
+    color: white;
+    font-weight: 600;
+  }
+  .hero-h1{
+    font-size:46px;
+    font-weight: 700;
+  }
+  .hero-p{
+    color:rgb(171, 171, 171);
+    font-weight: 600;
+  }
+  .hero-btn1{
+    color: white;
+    font-weight: 400;
+    background-color:rgb(40, 159, 135);
+    width:150px;
+    border-radius:30px;
+    padding:15px;
+    transition-duration:2s;
+    border:1px solid rgb(39, 144, 123);
+  }
+  .hero-btn1:hover{
+    border:2px solid rgb(56, 246, 208);
+  }
+  .hero-btn2{
+    padding:10px;
+    width:170px;
+    border: none;
+    border-radius:30px;
+    background:rgb(18, 117, 99);
+    color: white;
+    font-weight: 700;
+    font-size:17px;
+  }
+  .bi-play-circle{
+    padding:6px;
+    font-size:32px;
+    position: relative;
+    top:7px;
+    color:rgb(5, 242, 198);
+    transition-duration:1s;
+  }
+  .bi-play-circle:hover{
+    color: white;
+  }
+  ol li{
+    list-style-type:circle;
+    text-align: left;
+  }
+  .emo{
+    font-size:50px;
+    color: rgb(40, 159, 135);
+  }
+  .emo1{
+    font-size:48px;
+    color:grey;
+  }
+  #centerimg{
+    background-image: url(./img/cta-bg.jpg);
+    background-repeat: no-repeat;
+}
+footer{
+    background-color:rgb(0, 124, 99);
+    padding:7px;
+    margin: 10px;
+  }
+  .f-ul li{
+    list-style-type:none;
+    padding:5px;
+    color: white;
+    text-decoration: none;
+  }
+  .buynow-btn{
+    border: 1px solid black;
+    width:160px;
+    padding:13px;
+    border-radius:30px;
+    transition-duration:1s;
+    font-weight: 500;
+    font-size:20px;
+  }
+  .buynow-btn:hover{
+    color: white;
+    border:2px solid rgb(0, 124, 99);
+    background-color:rgb(18, 117, 99);
+  }
+  .contactsub{
+    border: 1px solid black;
+    width:170px;
+    padding:13px;
+    border-radius:30px;
+    transition-duration:1s;
+    font-weight: 500;
+    font-size:20px;
+  }
+  .contactsub:hover{
+    color: white;
+    border:2px solid rgb(0, 124, 99);
+    background-color:rgb(18, 117, 99);
+  }
+  .center-card{
+    border: 3px solid rgb(0, 124, 99) ;
+    border-radius:20px;
+  }
+  .blog-profile img{
+    border-radius:100px;
+    width:70px;
+    height:70px;
+  }
+
+
+  .cards-wrapper{
+    display: flex;
+  }
+  .cards{
+    margin: 0.5em;
+    width: calc(100%/3);
+  }
+  .image-wrapper{
+    display: flex;
+    justify-content:start;
+    align-items:center;
+    margin:15px;
+  }
+  .star{
+    color: rgb(226, 207, 0);
+    font-size: 24px;
+  }
+  .star span{
+    font-size:24px;
+  }
+  .rou-img{
+    width:100px;
+    height:95px;
+    border-radius:90px;
+  }
+  .contact-bg{
+    background-color: rgb(16, 161, 132);
+    border: none;
+  }
+  .contact-bg .card{
+       background-color: rgb(17, 140, 117);
+  }

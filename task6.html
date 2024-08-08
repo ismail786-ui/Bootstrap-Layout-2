@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Layout</title>
+<!-----------------------------External Links------------------------------------------------------>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link href="./style.css" rel="stylesheet">
+<!-------------------------External Link End---------------------------------------------->
+</head>
+<body>
+<!----------------------------Header Section------------------------------------------------------------------------------------------------------>
+  <header style="background:rgb(18, 117, 99);background-repeat: no-repeat;color: white;">
+  <div class="container">
+    <!--First row start-->
+    <div class="row ms-2">
+      <div class="col-12 col-md-12 mt-3">
+      <span class="bi bi-envelope "><a href="mailto:contact@example.com" class="text-white p-2">contact@gmail.com</a></span>
+      <span class="bi bi-phone ms-3"><span> +91 5589554885</span></span>    
+      </div>
+    </div>
+    <!-- first row end -->
+    <!--second row start-->
+    <div class="row">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <h1 class=" m-2 text-white ms-4" href="#">Impact</h2>
+      <button class="navbar-toggler m-2 bg-white " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+      <div class="collapse navbar-collapse ms-4" id="navbarNav">
+           <ul class="navbar-nav mx-auto">
+            <li class="nav-item active">
+                <a class="nav-link m-2" href="#">Home <span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link m-2" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link m-2" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link m-2" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link m-2" href="#">Blog</a>
+        </li>
+          <li class="nav-item">
+            <a class="nav-link m-2" href="#">Team</a>
+          </li>
+            <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle m-2" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 Dropdown
+                </a>
+                <div class="dropdown-menu m-2" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Dropdown 1</a>
+                    <a class="dropdown-item" href="#">Dropdown 2</a>
+                    <a class="dropdown-item" href="#">Dropdown 3</a>
+                    <a class="dropdown-item" href="#">Dropdown 4</a>
+                    <a class="dropdown-item" href="#">Dropdown 5</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link m-2" href="#">Contact</a>
+            </li>
+        </ul>
+      </div>
+  </nav>
+    <div class="col-12 col-md-6 mt-5">
+      <p class="mt-3 hero-h1 m-2">Welcome to Impact</p>
+      <p class="hero-p m-2">Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.</p>
+      <button class="hero-btn1 m-2">Get Started </button>
+      <button class="hero-btn2 m-2 "><i class="bi bi-play-circle"></i>Watch Video</button>
+    </div>
+    <div class="col-12 col-md-6 mt-5">
+      <img src="./img/hero-img.svg" class="w-75">
+    </div>
+    </div>
+  <!-- Second row end -->
+ <!--Third row start-->
+ <div class="row text-white mt-5 ">
+  <div class="col-12 col-sm-6 col-lg-3 col-md-3">
+    <div class="card bg-success m-3 ">
+      <div class="card-body text-center">
+        <h1 class="bi bi-easel"></h1>
+        <h3>Nemo Enimeded</h3>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-sm-6 col-md-3 col-lg-3 ">
+    <div class="card bg-success  m-3">
+      <div class="card-body text-center">
+        <h1 class="bi bi-gem"></h1>
+        <h3>Nemo Enimeded</h3>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-sm-6 col-md-3 col-lg-3">
+    <div class="card bg-success  m-3">
+      <div class="card-body text-center">
+        <h1 class="bi bi-geo-alt"></h1>
+        <h3>Nemo Enimeded</h3>
+      </div>
+    </div>
+  </div>
+  <div class="col-12  col-sm-6 col-md-3 col-lg-3">
+    <div class="card bg-success m-3">
+      <div class="card-body text-center">
+        <h1 class="bi bi-command"></h1>
+          <h3>Nemo Enimeded</h3>
+      </div>
+    </div>
+  </div>
+ </div> 
+ <!-- Third row end-->
+</div>
+</header>
+<!---------------------------Header Section End------------------------------------------------------------------------------------------------------------------>
+<!---------------------------About Section Start----------------------------------------------------------------------------------------------->
+<section>
+<div class="container mt-5 text-center">
+  <div class="row">
+      <!--first Column-->
+    <div class="col-12 col-md-12 mt-5">
+      <h3>About Us</h3>
+      <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+    </div>
+    <div class="col-12 col-md-6 col-sm-6">
+      <h2 class="mt-2">Voluptatem dignissimos provident laboris nisi ut aliquip ex ea commodo</h2>
+      <img src="./img/about.jpg" class="w-100 rounded">
+      <p>Ut fugiat ut sunt quia veniam. Voluptate perferendis perspiciatis quod nisi et. Placeat debitis quia recusandae odit et consequatur voluptatem. Dignissimos pariatur consectetur fugiat voluptas ea.</p>
+      <p>Temporibus nihil enim deserunt sed ea. Provident sit expedita aut cupiditate nihil vitae quo officia vel. Blanditiis eligendi possimus et in cum. Quidem eos ut sint rem veniam qui. Ut ut repellendus nobis tempore doloribus debitis explicabo similique sit. Accusantium sed ut omnis beatae neque deleniti repellendus.</p>
+    </div>
+    <!--Second Column-->
+    <div class="col-12 col-md-6 col-sm-6">
+      <p  class="mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      <ol class="">
+        <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+        <li>Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+        <li>Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
+      </ul>
+      <p class="mt-4">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident</p>
+      <img src="./img/about-2.jpg" alt="" class="w-100 rounded">
+    </div>
+  </div>
+<!------------------------------About Section End-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------owl casourel------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<div class="container mt-5">
+  <div class="owl-carousel text-dark m-4">
+    <div class="item image-wrap">
+      <img src="./img/client-2.png" alt="" class="w-50">
+    </div>
+    <div class="item image-wrap">
+      <img src="./img/client-3.png" alt=""  class="w-50">
+    </div>
+    <div class="item image-wrap">
+      <img src="./img/client-4.png" alt=""  class="w-50">
+    </div>
+    <div class="item image-wrap">
+      <img src="./img/client-5.png" alt=""  class="w-50">
+    </div>
+    <div class="item image-wrap">
+      <img src="./img/client-6.png" alt=""  class="w-50">
+    </div>
+  </div>
+<!----------------------------owl casourel End------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+  <div class="row mt-5">
+    <div class="col-12 col-md-6 mt-4">
+       <img src="./img/stats-img.svg 2.svg" alt="" class="w-75">
+    </div>
+    <div class="col-12 col-md-3 mt-4">
+    <h1><span class="bi bi-emoji-smile m-2 emo"></span>232</h1>
+    <p>Happy Clients consequuntur quae</p>
+    <h1><span class="bi bi-headset m-2 emo"></span>1453</h1>
+    <p>Projects adipisci atque cum quia aut</p>
+    </div>
+    <div class="col-12 col-md-3 mt-4">
+      <h1><span class="bi bi-journal-richtext m-2 emo"></span>521</h1>
+      <p>Projects adipisci atque cum quia aut</p>
+      <h1><span class="bi bi-people m-2 emo"></span>32</h1>
+      <p>Hard Workers rerum asperiores</p>
+      </div>
+  </div>
+</div>
+</section>
+<!---------------------------------Section End------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<div class="container mt-3">
+  <div class="row mt-5">
+    <div class="col-12 col-md-12">
+    <img src="./img/cta-bg.jpg" alt="" class="w-100 h-75">
+    </div>
+  </div>
+<!---------------------------------services Start----------------------------------------------------------------------------------------------------------------------------------------->
+  <div class="row">
+   <div class="col-12 col-md-12 text-center">
+    <h2 class="">Our Services</h2>
+    <p class="">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+   </div>
+  </div>
+  <div class="row">
+    <div class="col-12 col-md-4">
+    <div class="card">
+      <div class="card-body">
+        <i class="bi bi-activity emo1"></i>
+        <h4>Nesciunt mete</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, asperiores quia. Odit voluptate fuga expedita. Deserunt, quibusdam! Expedita, laudantium nam.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-4 ">
+    <div class="card">
+      <div class="card-body">
+        <i class="bi bi-broadcast emo1"></i>
+        <h4>Nesciunt mete</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, asperiores quia. Odit voluptate fuga expedita. Deserunt, quibusdam! Expedita, laudantium nam.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-4 ">
+    <div class="card">
+      <div class="card-body">
+        <i class="bi bi-easel emo1"></i>
+        <h4>Nesciunt mete</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, asperiores quia. Odit voluptate fuga expedita. Deserunt, quibusdam! Expedita, laudantium nam.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+<!--------------------------------------second card------------------------------------------------------------------------------->
+  <div class="row">
+    <div class="col-12 col-md-4 mt-3">
+    <div class="card">
+      <div class="card-body">
+        <i class="bi bi-bounding-box-circles emo1"></i>
+        <h4>Nesciunt mete</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, asperiores quia. Odit voluptate fuga expedita. Deserunt, quibusdam! Expedita, laudantium nam.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-4 mt-3">
+    <div class="card">
+      <div class="card-body">
+        <i class="bi bi-calendar4-week emo1"></i>
+        <h4>Nesciunt mete</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, asperiores quia. Odit voluptate fuga expedita. Deserunt, quibusdam! Expedita, laudantium nam.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-4 mt-3">
+    <div class="card">
+      <div class="card-body">
+        <i class="bi bi-chat-square-text emo1"></i>
+        <h4>Nesciunt mete</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, asperiores quia. Odit voluptate fuga expedita. Deserunt, quibusdam! Expedita, laudantium nam.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+<!------------------------------------Services Section End--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------Testimonial Section Start--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<div class="row ">
+  <div class="col-12 text-center mt-5">
+  <h2 class="mt-3">Testimonials</h2>
+  <p class="mt-4">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+</div>
+</div>
+<div class="container mt-5">
+  <div id="carouselExampleControls" class="carousel carousel-dark slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="cards-wrapper text-dark">
+        <div class="card m-2">
+          <div class="image-wrapper">
+          <img src="./img/blog-author.jpg"  alt="..." class="rou-img">
+        </div>
+          <div class="card-body">
+            <h6 class="text-dark">Jena Karlin</h6>
+              <p class="text-secondary">Store Owner</p>
+            <p class="star">&#9733<span>&#9733</span><span>&#9733</span><span>&#9733</span><span>&#9733</span> </p>     
+            <h5 class="card-title col-12 mt-2">Fundamental of UX for Application design</h5>
+            <p class="card-text">The automated process all your website tasks.Discover tools and techniques.</p>
+          </div>
+        </div>
+        <div class="card m-2">
+          <div class="image-wrapper">
+          <img src="./img/blog-author-3.jpg"  alt="..."  class="rou-img">
+          </div>
+          <div class="card-body">
+            <h6 class="text-dark">Sara Wilson</h6>
+            <p class="text-secondary">Designer</p>
+            <p class="star">&#9733<span>&#9733</span><span>&#9733</span><span>&#9733</span></p>
+            <h5 class="card-title mt-2">Fundamental of UX for Application design</h5>
+            <p class="card-text">The automated process all your website tasks.Discover tools and techniques.</p>
+          </div>
+        </div>
+        <div class="card m-2">
+          <div class="image-wrapper">
+          <img src="./img/blog-author-2.jpg"  alt="..."  class="rou-img">
+          </div>
+          <div class="card-body ">
+            <h6 class="text-dark">John Larson</h6>
+            <p class="text-secondary">Entrepreneur</p>
+            <p class="star">&#9733<span>&#9733</span><span>&#9733</span></p>
+            <h5 class="card-title mt-2">Fundamental of UX for Application design</h5>
+            <p class="card-text">The automated process all your website tasks.Discover tools and techniques.</p>
+          </div>
+        </div>
+      </div>
+      </div>
+      <!-- second carousel -->
+      <div class="carousel-item">
+        <div class="cards-wrapper  text-dark">
+          <div class="card m-2">
+            <div class="image-wrapper">
+            <img src="./img/blog-author-2.jpg"  alt="..."  class="rou-img">
+            </div>
+            <div class="card-body">
+            <h6 class="text-dark">John Larson</h6>
+            <p class="text-secondary">Entrepreneur</p>
+            <p class="star">&#9733<span>&#9733</span><span>&#9733</span><span>&#9733</span><span>&#9733</span></p>
+            <h5 class="card-title mt-2">Fundamental of UX for Application design</h5>
+            <p class="card-text">The automated process all your website tasks.Discover tools and techniques.</p>
+            </div>
+          </div>
+          <div class="card m-2">
+            <div class="image-wrapper">
+            <img src="./img/blog-author-3.jpg"  alt="..."  class="rou-img">
+            </div>
+            <div class="card-body">
+              <h6 class="text-dark">Saul Goodman</h6>
+              <p class="text-secondary">Ceo & Founder</p>
+              <p class="star">&#9733<span>&#9733</span><span>&#9733</span><span>&#9733</span></p>
+              <h5 class="card-title mt-2">Fundamental of UX for Application design</h5>
+              <p class="card-text">The automated process all your website tasks.Discover tools and techniques.</p>
+            </div>
+          </div>
+          <div class="card m-2">
+            <div class="image-wrapper">
+            <img src="./img/blog-author.jpg"  alt="..."  class="rou-img">
+            </div>
+            <div class="card-body">
+              <h6 class="text-dark">Sara Wilson</h6>
+              <p class="text-secondary">Designer</p>
+              <p class="star">&#9733<span>&#9733</span><span>&#9733</span><span>&#9733</span></p>
+              <h5 class="card-title mt-2">Fundamental of UX for Application design</h5>
+              <p class="card-text">The automated process all your website tasks.Discover tools and techniques.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- third carousel -->
+      <div class="carousel-item">
+        <div class="cards-wrapper  text-dark">
+          <div class="card m-2">
+            <div class="image-wrapper">
+            <img src="./img/blog-author-2.jpg"  alt="..."  class="rou-img">
+            </div>
+            <div class="card-body">
+              <h6 class="text-dark">Saul Goodman</h6>
+              <p class="text-secondary">Ceo & Founder</p>
+              <p class="star">&#9733<span>&#9733</span><span>&#9733</span><span>&#9733</span></p>
+              <h5 class="card-title mt-2">Fundamental of UX for Application design</h5>
+              <p class="card-text">The automated process all your website tasks.Discover tools and techniques.</p>
+            </div>
+          </div>
+          <div class="card m-2">
+            <div class="image-wrapper">
+            <img src="./img/blog-author-3.jpg"  alt="..."  class="rou-img">
+            </div>
+            <div class="card-body">
+              <h6 class="text-dark">Jena Karlis</h6>
+              <p class="text-secondary">store Owner</p>
+              <p class="star">&#9733<span>&#9733</span><span>&#9733</span><span>&#9733</span><span>&#9733</span></p>
+              <h5 class="card-title mt-2">Fundamental of UX for Application design</h5>
+              <p class="card-text">The automated process all your website tasks.Discover tools and techniques.</p>
+            </div>
+          </div>
+          <div class="card m-2">
+            <div class="image-wrapper">
+            <img src="./img/blog-author.jpg" alt="..."  class="rou-img">
+            </div>
+            <div class="card-body ">
+              <h6 class="text-dark">Mark Brandon</h6>
+              <p class="text-secondary">Freelancer</p>
+              <p class="star">&#9733<span>&#9733</span><span>&#9733</span><span>&#9733</span><span>&#9733</span></p>
+              <h5 class="card-title mt-2">Fundamental of UX for Application design</h5>
+              <p class="card-text">The automated process all your website tasks.Discover tools and techniques.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div> 
+</div>
+<!---------------------------Testimonial Section End------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------Portfolio Start------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<div class="container mt-5">
+  <div class="row m-2">
+    <div class="col-12 col-md-12 col-sm-12 text-center">
+      <h2>Portfolio</h2>
+      <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      <ul class="list-inline">
+        <li class="list-inline-item "><a href="" class="text-dark text-decoration-none">All</a></li>
+        <li class="list-inline-item"><a href="" class="text-dark  text-decoration-none">App</a></li>
+        <li class="list-inline-item"><a href="" class="text-dark  text-decoration-none">Product</a></li>
+        <li class="list-inline-item"><a href="" class="text-dark  text-decoration-none">Branding</a></li>
+        <li class="list-inline-item"><a href="" class="text-dark text-decoration-none">Books</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- First card Row end-->
+<div class="row m-3">
+<div class="col-12 col-md-4 col-sm-12">
+ <div class="card">
+  <img src="./img/app-1.jpg" alt="">
+  <div class="card-body"><div class="card-title">
+      <h6>App 1</h6></div>
+      <p>Lorem ipsum dolor sit amet.</p>
+  </div>
+ </div>
+</div>
+<div class="col-12 col-md-4 col-sm-12">
+  <div class="card">
+   <img src="./img/branding-2.jpg" alt="">
+   <div class="card-body"><div class="card-title">
+       <h6>Product 1</h6></div>
+       <p>Lorem ipsum dolor sit amet.</p>
+   </div>
+  </div>
+ </div>
+ <div class="col-12 col-md-4 col-sm-12">
+  <div class="card">
+   <img src="./img/branding-1.jpg" alt="">
+   <div class="card-body"><div class="card-title">
+       <h6>Branding 1</h6></div>
+       <p>Lorem ipsum dolor sit amet.</p>
+   </div>
+  </div>
+ </div>
+</div>
+<!-- first row End -->
+ <!-- second  card row start -->
+ <div class="row m-3">
+  <div class="col-12 col-md-4 col-sm-12">
+   <div class="card">
+    <img src="./img/books-1.jpg" alt="">
+    <div class="card-body"><div class="card-title">
+        <h6>Books 1</h6></div>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+   </div>
+  </div>
+  <div class="col-12 col-md-4 col-sm-12">
+    <div class="card">
+     <img src="./img/app-2.jpg" alt="">
+     <div class="card-body"><div class="card-title">
+         <h6>App 2</h6></div>
+         <p>Lorem ipsum dolor sit amet.</p>
+     </div>
+    </div>
+   </div>
+   <div class="col-12 col-md-4 col-sm-12">
+    <div class="card">
+     <img src="./img/product-2.jpg" alt="">
+     <div class="card-body"><div class="card-title">
+         <h6>Product 2</h6></div>
+         <p>Lorem ipsum dolor sit amet.</p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- Second card end -->
+   <!-- third card start -->
+  <div class="row m-3">
+    <div class="col-12 col-md-4 col-sm-12">
+     <div class="card">
+      <img src="./img/branding-2.jpg" alt="">
+      <div class="card-body"><div class="card-title">
+          <h6>Branding 2</h6></div>
+          <p>Lorem ipsum dolor sit amet.</p>
+      </div>
+     </div>
+    </div>
+    <div class="col-12 col-md-4 col-sm-12">
+      <div class="card">
+       <img src="./img/books-2.jpg" alt="">
+       <div class="card-body"><div class="card-title">
+           <h6>Books 2</h6></div>
+           <p>Lorem ipsum dolor sit amet.</p>
+       </div>
+      </div>
+     </div>
+     <div class="col-12 col-md-4 col-sm-12">
+      <div class="card">
+       <img src="./img/app-3.jpg" alt="">
+       <div class="card-body"><div class="card-title">
+           <h6>App 3</h6></div>
+           <p>Lorem ipsum dolor sit amet.</p>
+       </div>
+      </div>
+     </div>
+    </div>
+<!-- Third card Row end -->
+ <!-- fourth card start -->
+ <div class="row m-3">
+  <div class="col-12 col-md-4 col-sm-12">
+   <div class="card">
+    <img src="./img/product-3.jpg" alt="">
+    <div class="card-body"><div class="card-title">
+        <h6>Product 3</h6></div>
+        <p>Lorem ipsum dolor sit amet.</p>
+    </div>
+   </div>
+  </div>
+  <div class="col-12 col-md-4 col-sm-12">
+    <div class="card">
+     <img src="./img/branding-3.jpg" alt="">
+     <div class="card-body"><div class="card-title">
+         <h6>Branding 3</h6></div>
+         <p>Lorem ipsum dolor sit amet.</p>
+     </div>
+    </div>
+   </div>
+   <div class="col-12 col-md-4 col-sm-12">
+    <div class="card">
+     <img src="./img/books-3.jpg" alt="">
+     <div class="card-body"><div class="card-title">
+         <h6>Booking 3</h6></div>
+         <p>Lorem ipsum dolor sit amet.</p>
+     </div>
+    </div>
+   </div>
+  </div>
+  <!-- fourth card end -->
+</div>
+<!-----------------------------Portfolio End----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!--------------------------------Our Team------------------------------------------------------------------------------------------------------------------------------------------>
+<div class="container mt-5">
+  <!--First row-->
+  <div class="row ">
+   <div class="col-12 text-center col-md-12 col-sm-12">
+    <h2>Our Team</h2>
+    <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+   </div>
+  </div>
+  <!--second Row-->
+  <div class="row text-center">
+  <div class="col-12 col-md-3 col-sm-6">
+    <div class="card">
+      <img src="./img/team-1.jpg" alt="">
+      <div class="card-body">
+       <div class="card-title ">
+        <h4>Walter White</h4>
+        <p>Web Development</p>
+        <div class="team-social ">
+          <a href="#"><i class="bi bi-twitter text-secondary m-2 h3"></i></a>
+          <a href="#"><i class="bi bi-facebook text-secondary m-2 h3"></i></a>
+          <a href="#"><i class="bi bi-linkedin text-secondary m-2 h3"></i></a>
+          <a href="#"><i class="bi bi-instagram text-secondary m-2 h3"></i></a>
+        </div>
+       </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-3 col-sm-6">
+    <div class="card">
+      <img src="./img/team-2.jpg" alt="">
+      <div class="card-body">
+       <div class="card-title ">
+        <h4>Sarah Jhinson</h4>
+        <p>Marketing</p>
+        <div class="team-social ">
+          <a href="#"><i class="bi bi-twitter text-secondary m-2 h3"></i></a>
+          <a href="#"><i class="bi bi-facebook text-secondary m-2 h3"></i></a>
+          <a href="#"><i class="bi bi-linkedin text-secondary m-2 h3"></i></a>
+          <a href="#"><i class="bi bi-instagram text-secondary m-2 h3"></i></a>
+        </div>
+       </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-3 col-sm-6">
+    <div class="card">
+      <img src="./img/team-3.jpg" alt="">
+      <div class="card-body">
+       <div class="card-title ">
+        <h4>William Anderson</h4>
+        <p>Content</p>
+        <div class="team-social ">
+          <a href="#"><i class="bi bi-twitter text-secondary m-2 h3"></i></a>
+          <a href="#"><i class="bi bi-facebook text-secondary m-2 h3"></i></a>
+          <a href="#"><i class="bi bi-linkedin text-secondary m-2 h3"></i></a>
+          <a href="#"><i class="bi bi-instagram text-secondary m-2 h3"></i></a>
+        </div>
+       </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-md-3 col-sm-6">
+    <div class="card">
+      <img src="./img/team-4.jpg" alt="">
+      <div class="card-body">
+       <div class="card-title ">
+        <h4>Amanda Jepson</h4>
+        <p>Accountant</p>
+        <div class="team-social ">
+          <a href="#"><i class="bi bi-twitter text-secondary m-2 h3"></i></a>
+          <a href="#"><i class="bi bi-facebook text-secondary m-2 h3"></i></a>
+          <a href="#"><i class="bi bi-linkedin text-secondary m-2 h3"></i></a>
+          <a href="#"><i class="bi bi-instagram text-secondary m-2 h3"></i></a>
+        </div>
+       </div>
+      </div>
+    </div>
+  </div>
+  </div>
+<!-------------------------------------Team End ------------------------------------------------------------------------------------------------------------------------------------------------>
+<!--first row-->
+<div class="row mt-5">
+  <div class="col-12 text-center col-md-12 col-sm-12">
+   <h2>Pricing</h2>
+   <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+  </div>
+ </div>
+ <!-- second row start -->
+  <div class="row">
+  <div class="col-12 col-md-4 col-sm-12">
+  <div class="card text-center">
+    <div class="card-body">
+  <h3 class="mt-5">Free plan</h3>
+  <h1 class="bi bi-box Pricing-icon"></h1>
+  <span><p><sup class="h4 text-success">$</sup><span class="h1 text-success">0</span><span class="text-secondary">/month</span></p></span>
+  <ul class="list-group mt-5">
+    <li class="list-group-item m-2"><span class="bi bi-check text-success"></span>
+      Quam adipiscing vitae proin</li>
+      <li class="list-group-item m-2"><span class="bi bi-check text-success"></span>
+        Nec feugiat nisl pretium ryhs</li>
+      <li class="list-group-item m-2"><span class="bi bi-check text-success"></span>     
+      Nulla at volutpat diam uteera</li>
+      <li class="list-group-item m-2"><span class="bi bi-x text-success"></span>
+        <s>Nec feugiat nisl pretium ryhs</s></li>
+      <li class="list-group-item m-2"><span class="bi bi-x text-success"></span>     
+        <s>Nec feugiat nisl pretium ryhi</s></li>
+  </ul>
+  <button class="text-center  buynow-btn">Buy Now</button>
+  </div>
+</div>
+</div>
+
+<div class="col-12 col-md-4 col-sm-12">
+  <div class="card text-center center-card">
+    <div class="card-body">
+    <h3 class="mt-5">Business plan</h3>
+  <h1 class="bi bi-rocket Pricing-icon"></h1>
+  <span><p><sup class="h4 text-success">$</sup><span class="h1 text-success">29</span><span class="text-secondary">/month</span></p></span>
+  <ul class="list-group mt-5">
+    <li class="list-group-item m-2"><span class="bi bi-check text-success"></span>
+      Quam adipiscing vitae proin</li>
+      <li class="list-group-item m-2"><span class="bi bi-check text-success"></span>
+        Nec feugiat nisl pretium ryhs</li>
+      <li class="list-group-item m-2"><span class="bi bi-check text-success"></span>     
+      Nulla at volutpat diam uteera</li>
+      <li class="list-group-item m-2"><span class="bi bi-check text-success"></span>
+        Nec feugiat nisl pretium ryhs</li>
+      <li class="list-group-item m-2"><span class="bi bi-check text-success"></span>     
+        Nec feugiat nisl pretium ryhi</li>
+  </ul>
+  <button class="text-center buynow-btn">Buy Now</button>
+  </div>
+</div>
+</div>
+
+<div class="col-12 col-md-4 col-sm-12">
+  <div class="card text-center rounded">
+    <div class="card-body">
+  <h3 class="mt-5">Developer Plan</h3>
+  <h1 class="bi bi-send Pricing-icon"></h1>
+  <span><p><sup class="h4 text-success">$</sup><span class="h1 text-success">49</span><span class="text-secondary">/month</span></p></span>
+  <ul class="list-group mt-5">
+    <li class="list-group-item m-2"><span class="bi bi-check"></span>
+      Quam adipiscing vitae proin</li>
+      <li class="list-group-item m-2"><span class="bi bi-check text-success"></span>
+        Nec feugiat nisl pretium ryhs</li>
+      <li class="list-group-item m-2"><span class="bi bi-check text-success"></span>     
+      Nulla at volutpat diam uteera</li>
+      <li class="list-group-item m-2"><span class="bi bi-check text-success"></span>
+        Nec feugiat nisl pretium ryhs</li>
+      <li class="list-group-item m-2"><span class="bi bi-check text-success"></span>     
+        Nec feugiat nisl pretium ryhi</li>
+  </ul>
+  <button class="text-center buynow-btn">Buy Now</butto>
+</div>
+</div>
+</div>
+</div>
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+<div class="row mt-5">
+  <div class="col-12 col-md-4">
+    <h2 class="display-6">Frequently Asked</h2>
+    <h2>Questions</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit</p>
+  </div>
+  <div class="col-12 col-md-8 mt-3">
+    <p class="mt-4">1.Non consectetur a erat nam at lectus urna duis?</p>
+    <p class="mt-4">2. Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque?</p>
+    <p class="mt-4">3. Dolor sit amet consectetur adipiscing elit pellentesque?</p>
+    <p class="mt-4">4. Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</p>
+    <p class="mt-4">5. Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</p>
+  </div>
+</div>
+<!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!-- first row -->
+<div class="row mt-5">
+  <div class="col-12 text-center col-md-12 col-sm-12">
+    <h2 class="mt-4">Recent Blog Posts</h2>
+    <p class="mt-4">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+   </div>
+</div>
+<!-- second row -->
+ <div class="row mt-5">
+  <div class="col-12 col-md-4">
+  <div class="card">
+    <img src="./img/blog-1.jpg" alt=""class="">
+    <div class="card-body">
+      <p class="text-secondary">Politics</p>
+      <h4>Dolorum optio tempore voluptas dignissimos</h4>
+      <div class="blog-profile  d-flex justify-content-start">
+        <img src="./img/blog-author.jpg" class="image-fluid" alt="">
+        <p class="mt-3 ms-3">Maria Doe <br><span>Jan 1, 2022</span></p>
+      </div>
+    </div>
+  </div>
+ </div>
+ <div class="col-12 col-md-4">
+  <div class="card">
+    <img src="./img/blog-2.jpg" alt=""class="">
+    <div class="card-body">
+      <p class="text-secondary">Sports</p>
+      <h4>Nisi magni odit consequatur autem nulla dolorem</h4>
+      <div class="blog-profile  d-flex justify-content-start">
+        <img src="./img/blog-author-2.jpg" class="image-fluid" alt="">
+        <p class="mt-3 ms-3">Allisa Mayer<br><span>Jun 5, 2022</span></p>
+      </div>
+    </div>
+  </div>
+ </div>
+ <div class="col-12 col-md-4">
+  <div class="card">
+    <img src="./img/blog-3.jpg" alt=""class="">
+    <div class="card-body">
+      <p class="text-secondary">Entertainment</p>
+      <h4>Possimus soluta ut id suscipit ea ut in quo quia et soluta</h4>
+      <div class="blog-profile  d-flex justify-content-start">
+        <img src="./img/blog-author-3.jpg" class="image-fluid" alt="">
+        <p class="mt-3 ms-3">Mark Dower<br><span>Jun 22, 2022</span></p>
+      </div>
+    </div>
+  </div>
+ </div>
+ </div>
+ <!----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+ <div class="row mt-5">
+  <div class="col-12 text-center col-md-12 col-sm-12">
+    <h2 class="mt-4">Contact</h2>
+    <p class="mt-4">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+   </div>
+</div>
+<!-- second row -->
+ <div class="row text-white mt-3 m-2">
+  <div class="col-12 col-md-4 contact-bg">
+   <div class="card m-3 ">
+    <h5 class="mt-2 ms-3">
+    <i class="bi bi-geo-alt  m-2"></i>Address</h5>
+    <p class="ms-5">A108 Adam Street, New York, NY 535022</p>
+   </div>
+   <div class="card m-3 ">
+    <h5 class="mt-2"><i class="bi bi-telephone m-3"></i>Call Us</h5>
+    <p class="ms-5">+1 5589 55488 55</p>
+   </div>
+   <div class="card m-3 ">
+    <h5 class="mt-2"><i class="bi bi-envelope m-3"></i>Email Us</h5>
+    <p class="ms-5">info@example.com</p>
+   </div>
+   <div class="card m-3 ">
+    <h5 class="mt-2"><i class="bi bi-clock m-3"></i>Open Hours:</h5>
+    <p class="ms-5">Mon-Sat: 11AM - 23PM</p>
+   </div>
+  </div>
+  <div class="col-12 col-md-8">
+    <div class="row">
+    <div class="col-12 col-md-6 form-group">
+      <input type="text" placeholder="Your Name" class="form-control w-100 m-3">
+    </div>
+    <div class="col-12 col-md-6 form-group">
+      <input type="text" placeholder="Your Email" class="form-control w-100 m-3">
+    </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-12 ">
+        <input type="text" placeholder="Subject" class="form-control w-100 m-3" >
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-12">
+        <textarea rows="7" col="30" class="form-control m-3" placeholder="Message"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-12 text-center ">
+        <button class="contactsub">Send Message</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!----------------------------------Contact end----------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------Footer Start------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+<footer class="mt-5 text-white">
+  <div class="container mt-5">
+    <div class="row mt-5">
+      <div class="col-12 col-md-3 col-sm-12" >
+        <h3 class="ms-3">Impact</h3>
+        <div><p class="ms-3">Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita .</p></div>
+        <div class="footer-social my-3 ms-3">
+        <a href="#"><i class="bi bi-twitter text-white h3"></i></a>
+        <a href="#"><i class="bi bi-facebook m-4 text-white h3"></i></a>
+        <a href="#"><i class="bi bi-pinterest text-white h3"></i></a>
+      </div>
+      </div>
+      <div class="col-6 col-md-3 col-sm-12">
+        <h6 class="ms-2 ps-4">Useful Links</h6>
+        <ul class="f-ul">
+        <li><a href="#" class="text-white text-decoration-none ">Home</a></li>
+        <li><a href="#" class="text-white text-decoration-none">About us</a></li>
+        <li><a href="#" class="text-white text-decoration-none">Services</a></li>
+        <li><a href="#" class="text-white text-decoration-none">Terms of services</a></li>
+        <li><a href="#" class="text-white text-decoration-none">privacy policy</a></li>
+      </ul>
+      </div>
+      <div class="col-6 col-md-3 col-sm-12">
+        <h6 class="ms-2 ps-4">Our services</h6>
+        <ul class="f-ul">
+        <li><a href="#" class="text-white text-decoration-none">Web Design</a></li>
+        <li><a href="#" class="text-white text-decoration-none">Web Development</a></li>
+        <li><a href="#" class="text-white text-decoration-none">Product Management</a></li>
+        <li><a href="#" class="text-white text-decoration-none">Marketing</a></li>
+        <li><a href="#" class="text-white text-decoration-none">Graphic Design</a></li>
+      </ul>
+      </div>
+      <div class="col-12 col-md-3 col-sm-12">
+        <h6 class="ms-2 ps-4">Contact us</h6>
+       <address class="ms-3 ps-3">A108 Adam Street<br>New York, NY 535022<br>United States</address>
+      <p class="mt-3 ms-3 ps-3">Phone :<strong>+91 1234567890</strong><br>Email :<strong>info@gmail.com</strong></p>
+      </div>
+    </div>
+    </div>
+    <div class="row">
+      <div class="col-12 col-md-12 col-sm-12">
+        <hr>
+      <p class="text-center">© Copyright Impact All Rights Reserved
+         <br>
+        Designed by BootstrapMade</p>
+      </div>
+    </div>
+</div>
+</footer>
+<!----------------------------Footer End-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+</body>
+</html>
+<!----------------------------owl script------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<script>
+  $(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+      loop: true,
+      margin: 10,
+      nav: true,
+      responsive: {
+        0: {
+          items: 2
+        },
+        600: {
+          items: 3
+        },
+        1000: {
+          items: 5
+        }
+      }
+    });
+  });
+  </script>

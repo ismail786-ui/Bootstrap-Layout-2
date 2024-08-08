@@ -146,3 +146,10 @@ footer{
   .contact-bg .card{
        background-color: rgb(17, 140, 117);
   }
+ .trans-imagebody img{
+    transition:all;
+    transition-duration: 2s;
+  }
+  .trans-imagebody img:hover{
+    transform: scale(1.1);
+  }

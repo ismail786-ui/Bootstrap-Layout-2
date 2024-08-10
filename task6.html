@@ -29,51 +29,60 @@
       </div>
     </div>
     <!-- first row end -->
-    <!--second row start-->
-    <div class="row">
-    <nav class="navbar navbar-expand-lg navbar-light">
+      <!--second row start-->
+     <div class="row">
+  <!-- Navbar start-->
+  <nav class="navbar navbar-expand-lg  ">
+    <div class="container-fluid " >
       <h1 class=" m-2 text-white ms-4" href="#">Impact</h2>
-      <button class="navbar-toggler m-2 bg-white " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon "></span>
+      <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header ">
+          <h2 class="offcanvas-title text-white" id="offcanvasNavbarLabel">Impact</h2>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body ">
+          <ul class="navbar-nav justify-content-end flex-grow-1">
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2 " href="#">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" id="contact" href="#">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link mx-lg-2" href="#">Blog</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item " href="#">Dropdown 1</a></li>
+                <li><a class="dropdown-item " href="#">Dropdown 2</a></li>
+                <li><a class="dropdown-item " href="#">Dropdown 3</a></li>
+                <li><a class="dropdown-item " href="#">Dropdown 4</a></li>
+                <li><a class="dropdown-item " href="#">Dropdown 5</a></li>
+              </ul>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="#">Contact</a>
+              </li>
+          </ul>
+        </div>
+      </div> 
+      <button class="navbar-toggler bg-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse ms-4" id="navbarNav">
-           <ul class="navbar-nav mx-auto">
-            <li class="nav-item active">
-                <a class="nav-link m-2" href="#">Home <span class="sr-only"></span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link m-2" href="#">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link m-2" href="#">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link m-2" href="#">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link m-2" href="#">Blog</a>
-        </li>
-          <li class="nav-item">
-            <a class="nav-link m-2" href="#">Team</a>
-          </li>
-            <li class="nav-item dropdown ">
-                <a class="nav-link dropdown-toggle m-2" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                 Dropdown
-                </a>
-                <div class="dropdown-menu m-2" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Dropdown 1</a>
-                    <a class="dropdown-item" href="#">Dropdown 2</a>
-                    <a class="dropdown-item" href="#">Dropdown 3</a>
-                    <a class="dropdown-item" href="#">Dropdown 4</a>
-                    <a class="dropdown-item" href="#">Dropdown 5</a>
-                </div>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link m-2" href="#">Contact</a>
-            </li>
-        </ul>
-      </div>
+    </div>
   </nav>
+  <!-- navbar End -->
     <div class="col-12 col-md-6 mt-5">
       <p class="mt-3 hero-h1 m-2">Welcome to Impact</p>
       <p class="hero-p m-2">Sed autem laudantium dolores. Voluptatem itaque ea consequatur eveniet. Eum quas beatae cumque eum quaerat.</p>
